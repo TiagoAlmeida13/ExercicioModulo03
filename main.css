@@ -34,3 +34,16 @@ input[type=submit]:hover {
     color: rgb(53, 53, 53);
     cursor: pointer;
 }
+
+#tabela th {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#tabela td {
+    margin: 10px;
+    padding: 10px;
+}

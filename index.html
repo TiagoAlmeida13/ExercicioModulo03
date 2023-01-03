@@ -5,17 +5,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./main.css">
+    <title>Formulario EBAC</title>
 </head>
 
 <body>
     <form id="formulario">
         <label for="nome">Nome:</label><br>
-        <input type="text" id="nome" name="nome"><br>
+        <input type="text" id="nome" name="nome">
+        <br>
         <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email"><br>
-        <label for="mensagem">Mensagem:</label><br>
-        <textarea id="mensagem" name="mensagem"></textarea><br>
+        <input type="email" id="email" name="email">
+        <br>
+        <label for="mensagem">Mensagem:</label>
+        <br>
+        <textarea id="mensagem" name="mensagem"></textarea>
+        <br>
+        <label for="opção">Radio:</label>
+        <br>
+        <input type="radio" name="radio" value="opção 1">Opção 1
+        <br>
+        <input type="radio" name="radio" value="opção 2">Opção 2
+        <br>
+        <label for="seleção">Seleção</label>
+        <select name="selecao" id="selecao">
+            <option value="opcao1">01</option>
+            <option value="opcao2">02</option>
+            <option value="opcao3">03</option>
+            <option value="opcao4">04</option>
+        </select>
+
+        <br>
+
         <input type="submit" value="Enviar">
     </form>
 
@@ -27,6 +48,8 @@
             <th>Nome</th>
             <th>Email</th>
             <th>Mensagem</th>
+            <th>Opção</th>
+            <th>Selecao</th>
         </tr>
     </table>
 

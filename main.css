@@ -1,13 +1,36 @@
-#fake-loading {
-    width: 300px;
-    height: 20px;
-    border: 1px solid rgb(199, 53, 53);
-    position: relative;
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
-#progress-bar {
-    width: 0%;
-    height: 100%;
-    background-color: #4caf50;
-    position: absolute;
+label {
+    padding: 10px 20px;
+    margin: 5px 10px;
+}
+
+input {
+    padding: 10px 20px;
+    margin: 5px 10px;
+}
+
+input[type=submit] {
+    border-radius: 50px;
+    width: 180px;
+    border: none;
+    border: 1px solid white;
+    background-color: rgb(53, 53, 53);
+    font-size: 14px;
+    font-family: helvetica, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    color: white;
+    margin: 20px;
+}
+
+input[type=submit]:hover {
+    background-color: white;
+    border: 1px solid rgb(53, 53, 53);
+    color: rgb(53, 53, 53);
+    cursor: pointer;
 }
